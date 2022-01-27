@@ -6,3 +6,4 @@ foreach (Char c in content.Replace(" ", ""))
     item += c;
     if (Convert.ToInt32(item) > 120) { Console.Write(item.Remove(item.Length - 1, 1) + " "); item = c.ToString(); }
 }
+Console.Write(item);
